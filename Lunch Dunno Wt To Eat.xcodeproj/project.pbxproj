@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		DD8B979E270B512F0098E8A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B979D270B512F0098E8A0 /* AppDelegate.swift */; };
 		DD8B97A0270B512F0098E8A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B979F270B512F0098E8A0 /* SceneDelegate.swift */; };
-		DD8B97A2270B512F0098E8A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97A1270B512F0098E8A0 /* ViewController.swift */; };
+		DD8B97A2270B512F0098E8A0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97A1270B512F0098E8A0 /* MainVC.swift */; };
 		DD8B97A5270B512F0098E8A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B97A3270B512F0098E8A0 /* Main.storyboard */; };
 		DD8B97A8270B512F0098E8A0 /* Lunch_Dunno_Wt_To_Eat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97A6270B512F0098E8A0 /* Lunch_Dunno_Wt_To_Eat.xcdatamodeld */; };
 		DD8B97AA270B51330098E8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B97A9270B51330098E8A0 /* Assets.xcassets */; };
 		DD8B97AD270B51330098E8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B97AB270B51330098E8A0 /* LaunchScreen.storyboard */; };
+		DD8B97B8270B5B440098E8A0 /* ListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97B7270B5B440098E8A0 /* ListTableVC.swift */; };
+		DD8B97BA270B5B820098E8A0 /* ListDetailTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97B9270B5B820098E8A0 /* ListDetailTableVC.swift */; };
+		DD8B97BE270B6A210098E8A0 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B97BC270B6A210098E8A0 /* MainTableViewCell.swift */; };
+		DD8B97BF270B6A210098E8A0 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8B97BD270B6A210098E8A0 /* MainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD8B979A270B512F0098E8A0 /* Lunch Dunno Wt To Eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunch Dunno Wt To Eat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8B979D270B512F0098E8A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8B979F270B512F0098E8A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD8B97A1270B512F0098E8A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD8B97A1270B512F0098E8A0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DD8B97A4270B512F0098E8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD8B97A7270B512F0098E8A0 /* Lunch_Dunno_Wt_To_Eat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lunch_Dunno_Wt_To_Eat.xcdatamodel; sourceTree = "<group>"; };
 		DD8B97A9270B51330098E8A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8B97AC270B51330098E8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8B97AE270B51330098E8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B97B7270B5B440098E8A0 /* ListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableVC.swift; sourceTree = "<group>"; };
+		DD8B97B9270B5B820098E8A0 /* ListDetailTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailTableVC.swift; sourceTree = "<group>"; };
+		DD8B97BC270B6A210098E8A0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		DD8B97BD270B6A210098E8A0 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +68,34 @@
 			children = (
 				DD8B979D270B512F0098E8A0 /* AppDelegate.swift */,
 				DD8B979F270B512F0098E8A0 /* SceneDelegate.swift */,
-				DD8B97A1270B512F0098E8A0 /* ViewController.swift */,
-				DD8B97A3270B512F0098E8A0 /* Main.storyboard */,
+				DD8B97BB270B69FD0098E8A0 /* Model */,
+				DD8B97B4270B5AF10098E8A0 /* Controller */,
 				DD8B97A9270B51330098E8A0 /* Assets.xcassets */,
 				DD8B97AB270B51330098E8A0 /* LaunchScreen.storyboard */,
 				DD8B97AE270B51330098E8A0 /* Info.plist */,
 				DD8B97A6270B512F0098E8A0 /* Lunch_Dunno_Wt_To_Eat.xcdatamodeld */,
 			);
 			path = "Lunch Dunno Wt To Eat";
+			sourceTree = "<group>";
+		};
+		DD8B97B4270B5AF10098E8A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B97A1270B512F0098E8A0 /* MainVC.swift */,
+				DD8B97B7270B5B440098E8A0 /* ListTableVC.swift */,
+				DD8B97B9270B5B820098E8A0 /* ListDetailTableVC.swift */,
+				DD8B97BC270B6A210098E8A0 /* MainTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD8B97BB270B69FD0098E8A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B97A3270B512F0098E8A0 /* Main.storyboard */,
+				DD8B97BD270B6A210098E8A0 /* MainTableViewCell.xib */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +157,7 @@
 			files = (
 				DD8B97AD270B51330098E8A0 /* LaunchScreen.storyboard in Resources */,
 				DD8B97AA270B51330098E8A0 /* Assets.xcassets in Resources */,
+				DD8B97BF270B6A210098E8A0 /* MainTableViewCell.xib in Resources */,
 				DD8B97A5270B512F0098E8A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8B97A8270B512F0098E8A0 /* Lunch_Dunno_Wt_To_Eat.xcdatamodeld in Sources */,
-				DD8B97A2270B512F0098E8A0 /* ViewController.swift in Sources */,
+				DD8B97A2270B512F0098E8A0 /* MainVC.swift in Sources */,
+				DD8B97B8270B5B440098E8A0 /* ListTableVC.swift in Sources */,
+				DD8B97BE270B6A210098E8A0 /* MainTableViewCell.swift in Sources */,
 				DD8B979E270B512F0098E8A0 /* AppDelegate.swift in Sources */,
+				DD8B97BA270B5B820098E8A0 /* ListDetailTableVC.swift in Sources */,
 				DD8B97A0270B512F0098E8A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
